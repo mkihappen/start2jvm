@@ -13,6 +13,6 @@
 - sudo apt-get install openjdk-11-jdk
 - #### bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations
 - #### make images
-- #### make install
+- #### make install（可选）
 
 ##### 编译版本：JDK11-27，BOOT JDK也是11
