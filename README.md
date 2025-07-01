@@ -3,14 +3,14 @@
 ###使用Ubuntu-18.04，gcc-7.5，make-4.1，还需要加一个configure选项：--with-extra-cflags=-Wno-deprecated-declarations（不然出现“readdir64_r”相关错误会编译失败）<br/>
 ###最终参考<br/>
 <li>
-  sudo apt-get install -y build-essential
-  sudo apt-get install -y libfreetype6-dev
-  sudo  apt-get install -y libcups2-dev
-  sudo  apt-get install -y libx11-dev libxext-dev libxrender-dev libxrandr-dev libxtst-dev libxt-dev
-  sudo  apt-get install -y libasound2-dev
-  sudo  apt-get install -y libffi-dev
-  sudo  apt-get install -y autoconf
-  sudo apt-get install -y libfontconfig1-dev
+  -sudo apt-get install -y build-essential
+  -sudo apt-get install -y libfreetype6-dev
+  -sudo  apt-get install -y libcups2-dev
+  -sudo  apt-get install -y libx11-dev libxext-dev libxrender-dev libxrandr-dev libxtst-dev libxt-dev
+  -sudo  apt-get install -y libasound2-dev
+  -sudo  apt-get install -y libffi-dev
+  -sudo  apt-get install -y autoconf
+  -sudo apt-get install -y libfontconfig1-dev
 </li>
   ###bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations<br/>
   ###make images<br/>
