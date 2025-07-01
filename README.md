@@ -10,7 +10,7 @@
   - sudo  apt-get install -y libffi-dev
   - sudo  apt-get install -y autoconf
   - sudo apt-get install -y libfontconfig1-dev
-  #### bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations<br/>
+  #### bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations
   #### make images
   #### make install
 
