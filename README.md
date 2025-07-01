@@ -12,10 +12,7 @@
   sudo  apt-get install -y autoconf
   sudo apt-get install -y libfontconfig1-dev
 </li>
-  ###
-  bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations
-  ###
-  make images
-  ###
-  make install
+  ###bash configure --enable-debug --with-jvm-variants=server --with-extra-cflags=-Wno-deprecated-declarations<br/>
+  ###make images<br/>
+  ###make install<br/>
 
